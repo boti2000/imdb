@@ -1,0 +1,36 @@
+* {
+    /* padding: 5px; */
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: lightgray
+  }
+.poster {
+    text-align: center;
+}
+.title {
+    text-align: center;
+    font-size: 25px;
+    /* column-span: all */
+}
+
+@media screen and (min-width: 768px){
+    * {
+        padding: 2%;
+        margin: auto;
+    }
+    .details{
+        column-count: 2;
+        /* column-gap:10px; */
+    }
+    #movie-text{
+        display: inline-block;
+        position: relative;
+        padding: 30px;
+        margin: auto;
+    }
+    #poster {
+        display: inline-block;
+        margin: auto;
+        padding: 100px;
+    }
+}
